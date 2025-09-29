@@ -13,7 +13,7 @@ jobs:
         with:
           clientId: ${{ secrets.PORT_CLIENT_ID }}
           clientSecret: ${{ secrets.PORT_CLIENT_SECRET }}
-          blueprint: PullRequest
+          blueprint: Service Catalog
           entity: |
             prNumber: ${{ github.event.pull_request.number }}
             title: ${{ github.event.pull_request.title }}
